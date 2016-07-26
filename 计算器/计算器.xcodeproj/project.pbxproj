@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		920B97F91D4715640083A4DE /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920B97F81D4715640083A4DE /* Student.swift */; };
 		9219E1641D461F9E002FB560 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9219E1631D461F9E002FB560 /* AppDelegate.swift */; };
 		9219E1661D461F9E002FB560 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9219E1651D461F9E002FB560 /* ViewController.swift */; };
 		9219E1691D461F9E002FB560 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9219E1671D461F9E002FB560 /* Main.storyboard */; };
 		9219E16B1D461F9E002FB560 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9219E16A1D461F9E002FB560 /* Assets.xcassets */; };
 		9219E16E1D461F9E002FB560 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9219E16C1D461F9E002FB560 /* LaunchScreen.storyboard */; };
+		928CF05A1D47052D006145FC /* Persion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928CF0591D47052D006145FC /* Persion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		920B97F81D4715640083A4DE /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		9219E1601D461F9E002FB560 /* 计算器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "计算器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9219E1631D461F9E002FB560 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9219E1651D461F9E002FB560 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		9219E16A1D461F9E002FB560 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9219E16D1D461F9E002FB560 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9219E16F1D461F9E002FB560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		928CF0591D47052D006145FC /* Persion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				9219E1631D461F9E002FB560 /* AppDelegate.swift */,
 				9219E1651D461F9E002FB560 /* ViewController.swift */,
+				928CF0591D47052D006145FC /* Persion.swift */,
+				920B97F81D4715640083A4DE /* Student.swift */,
 				9219E1671D461F9E002FB560 /* Main.storyboard */,
 				9219E16A1D461F9E002FB560 /* Assets.xcassets */,
 				9219E16C1D461F9E002FB560 /* LaunchScreen.storyboard */,
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9219E1661D461F9E002FB560 /* ViewController.swift in Sources */,
+				928CF05A1D47052D006145FC /* Persion.swift in Sources */,
 				9219E1641D461F9E002FB560 /* AppDelegate.swift in Sources */,
+				920B97F91D4715640083A4DE /* Student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +303,7 @@
 				9219E1741D461F9E002FB560 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
