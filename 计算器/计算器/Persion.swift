@@ -11,11 +11,22 @@ import UIKit
 class Persion: NSObject {
     
     var name: String?
+    var age: Int = 0
+    var title: String?
+    
     
     override init() {
         
         name = "haha"
         super.init()
+    }
+    
+    class func propertylist() -> [String] {
+        var count: UInt32 = 0
+        var pty = class_copyPropertyList(self, &count)
+        
+        print("数量 + \(count)")
+        return []
     }
     
     init(dict:[String: AnyObject]) {

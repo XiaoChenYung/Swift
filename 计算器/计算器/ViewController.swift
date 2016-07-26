@@ -17,8 +17,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = #colorLiteral(red: 0.2202886641, green: 0.7022308707, blue: 0.9593387842, alpha: 1)
         
-        let s = Persion(dict: ["name": "老王"])
-        print(s.name)
+//        let s = Persion(dict: ["name": "老王"])
+        print(Persion.propertylist())
         
         
 //        downloadData { (result) in
