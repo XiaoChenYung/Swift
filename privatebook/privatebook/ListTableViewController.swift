@@ -124,6 +124,17 @@ class ListTableViewController: UITableViewController {
         if let indexpath = sender as? IndexPath {
             let p = personList[indexpath.row]
             vc.person = p
+            
+            vc.completionCallBack = {
+                self.tableView.reloadRows(at: [indexpath], with: .automatic)
+            }
+        } else {
+            vc.completionCallBack = {
+                guard let p = vc.person else { return}
+                
+                self.personList.insert(p, at: 0)
+                self.tableView.reloadData()
+            }
         }
         
         

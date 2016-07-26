@@ -12,6 +12,8 @@ class DetailTableViewController: UITableViewController {
 
     var person: Person?
     
+    var completionCallBack:(() -> ())?
+    
     @IBOutlet weak var nameText: UITextField!
     
     @IBOutlet weak var phoneText: UITextField!
@@ -42,6 +44,16 @@ class DetailTableViewController: UITableViewController {
     }
 
     @IBAction func saveClick(_ sender: AnyObject) {
+        
+        if person == nil {
+            person = Person()
+        }
+        
+        person?.name = nameText.text
+        person?.phone = phoneText.text
+        person?.title = titleText.text
+        completionCallBack?()
+        _ = navigationController?.popViewController(animated: true)
     }
     // MARK: - Table view data source
 
