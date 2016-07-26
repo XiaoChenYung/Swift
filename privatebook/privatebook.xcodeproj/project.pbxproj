@@ -14,6 +14,8 @@
 		920B98111D473ABD0083A4DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 920B980F1D473ABD0083A4DE /* LaunchScreen.storyboard */; };
 		920B98191D47406F0083A4DE /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920B98181D47406D0083A4DE /* Person.swift */; };
 		920B981B1D4743C70083A4DE /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920B981A1D4743C70083A4DE /* UITextField+Extension.swift */; };
+		920B981D1D4750CF0083A4DE /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920B981C1D4750CF0083A4DE /* ListTableViewController.swift */; };
+		920B981F1D4750DF0083A4DE /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920B981E1D4750DF0083A4DE /* DetailTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		920B98121D473ABD0083A4DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		920B98181D47406D0083A4DE /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		920B981A1D4743C70083A4DE /* UITextField+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		920B981C1D4750CF0083A4DE /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		920B981E1D4750DF0083A4DE /* DetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 			children = (
 				920B98061D473ABD0083A4DE /* AppDelegate.swift */,
 				920B98081D473ABD0083A4DE /* ViewController.swift */,
+				920B981C1D4750CF0083A4DE /* ListTableViewController.swift */,
+				920B981E1D4750DF0083A4DE /* DetailTableViewController.swift */,
 				920B981A1D4743C70083A4DE /* UITextField+Extension.swift */,
 				920B98181D47406D0083A4DE /* Person.swift */,
 				920B980A1D473ABD0083A4DE /* Main.storyboard */,
@@ -144,9 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				920B981F1D4750DF0083A4DE /* DetailTableViewController.swift in Sources */,
 				920B98191D47406F0083A4DE /* Person.swift in Sources */,
 				920B981B1D4743C70083A4DE /* UITextField+Extension.swift in Sources */,
 				920B98091D473ABD0083A4DE /* ViewController.swift in Sources */,
+				920B981D1D4750CF0083A4DE /* ListTableViewController.swift in Sources */,
 				920B98071D473ABD0083A4DE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

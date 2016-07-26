@@ -10,16 +10,6 @@ import UIKit
 
 class Person: NSObject {
     var name: String?
-    var age: Int = 0
-    
-    init?(name: String, age: Int) {
-        if age > 100 {
-            return nil
-        }
-        
-        self.init()
-        
-        self.name = name
-    }
-    
+    var phone: String?
+    var title: String?
 }
