@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  SwiftWeibo
+//  Weibo
 //
-//  Created by tm on 16/7/26.
+//  Created by tm on 16/7/27.
 //  Copyright © 2016年 tm. All rights reserved.
 //
 
@@ -15,15 +15,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        window = UIWindow()
-        window?.backgroundColor = #colorLiteral(red: 0.2193539292, green: 0.4209204912, blue: 0.1073316187, alpha: 1)
-        let className = "SwiftWeibo.ViewController"
-        let v = NSClassFromString(className) as? UIViewController.Type
-        let vc = v?.init()
-        
-        window?.rootViewController = vc
+        sleep(2)
+        window?.backgroundColor = UIColor.white()
+        window?.rootViewController = XCMainViewController()
         window?.makeKeyAndVisible()
-        
         // Override point for customization after application launch.
         return true
     }
