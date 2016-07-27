@@ -12,6 +12,8 @@
 		920B98321D476C5B0083A4DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 920B98301D476C5B0083A4DE /* Main.storyboard */; };
 		920B98341D476C5B0083A4DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 920B98331D476C5B0083A4DE /* Assets.xcassets */; };
 		920B98371D476C5B0083A4DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 920B98351D476C5B0083A4DE /* LaunchScreen.storyboard */; };
+		924953261D48620B00C8F3B5 /* XCLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924953251D48620B00C8F3B5 /* XCLabel.swift */; };
+		924953281D48893C00C8F3B5 /* XCPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924953271D48893C00C8F3B5 /* XCPerson.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		920B98331D476C5B0083A4DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		920B98361D476C5B0083A4DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		920B98381D476C5B0083A4DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		924953251D48620B00C8F3B5 /* XCLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCLabel.swift; sourceTree = "<group>"; };
+		924953271D48893C00C8F3B5 /* XCPerson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCPerson.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				920B982C1D476C5B0083A4DE /* AppDelegate.swift */,
 				920B982E1D476C5B0083A4DE /* ViewController.swift */,
+				924953271D48893C00C8F3B5 /* XCPerson.swift */,
+				924953251D48620B00C8F3B5 /* XCLabel.swift */,
 				920B98301D476C5B0083A4DE /* Main.storyboard */,
 				920B98331D476C5B0083A4DE /* Assets.xcassets */,
 				920B98351D476C5B0083A4DE /* LaunchScreen.storyboard */,
@@ -140,7 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				920B982F1D476C5B0083A4DE /* ViewController.swift in Sources */,
+				924953261D48620B00C8F3B5 /* XCLabel.swift in Sources */,
 				920B982D1D476C5B0083A4DE /* AppDelegate.swift in Sources */,
+				924953281D48893C00C8F3B5 /* XCPerson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +304,7 @@
 				920B983D1D476C5B0083A4DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
