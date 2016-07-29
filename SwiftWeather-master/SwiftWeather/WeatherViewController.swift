@@ -36,9 +36,9 @@ class WeatherViewController: UIViewController {
         self.temperatureLabel.text = $0
       }
         
-        viewModel?.temperature.observe({ (<#String#>) in
-            <#code#>
-        })
+//        viewModel?.temperature.observe({ (<#String#>) in
+//            <#code#>
+//        })
 
       viewModel?.forecasts.observe {
         [unowned self] (let forecastViewModels) in
