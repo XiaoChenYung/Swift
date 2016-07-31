@@ -4,7 +4,7 @@
 //
 
 import Foundation
-
+/// 结构
 struct WeatherBuilder {
   var location: String?
   var iconText: String?

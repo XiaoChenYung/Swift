@@ -20,7 +20,7 @@ func swapTwoValue<T> (first a: T, sec b: T){
 var a = 10
 var b = 20
 
-//swap(&a, &b)
+swap(&a, &b)
 swapTwoValue(first: a, sec: b)
 
 
