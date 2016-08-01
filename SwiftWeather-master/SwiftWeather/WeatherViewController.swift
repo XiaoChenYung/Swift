@@ -21,15 +21,20 @@ class WeatherViewController: UIViewController {
   // MARK: ViewModel
   var viewModel: WeatherViewModel? {
     didSet {
+    
       viewModel?.location.observe {
         [unowned self] in
         self.locationLabel.text = $0
       }
 
-      viewModel?.iconText.observe {
-        [unowned self] in
-        self.iconLabel.text = $0
-      }
+//      viewModel?.iconText.observe {
+//        [unowned self] in
+//        self.iconLabel.text = $0
+//      }
+        
+        viewModel?.iconText.observe({[weak self] (str) in
+            self?.iconLabel.text = str
+        })
 
       viewModel?.temperature.observe {
         [unowned self] in
