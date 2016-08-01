@@ -11,4 +11,4 @@ func sun(num1 x:Int,num2 y:Int) -> Int {
 
 let f = sun
 
-print(<#T##items: Any...##Any#>) f(num1: 20, num2: 30)
+//print(<#T##items: Any...##Any#>) f(num1: 20, num2: 30)
